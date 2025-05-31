@@ -54,6 +54,12 @@ dotnet restore
 dotnet ef database update
 dotnet run
 
+### Frontend
+
+cd frontend
+npm install
+ng serve
+
 👨‍💻 Autor
 Wellington Americano de Oliveira
 Desenvolvedor Full Stack .NET & Angular
