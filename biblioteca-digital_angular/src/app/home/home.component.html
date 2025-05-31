@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+
+<div class="pt-24 px-4 max-w-5xl mx-auto">
+<div class="container text-xl font-bold text-blue-600">
+  <h1 style="color: purple;">Bem-vindo à Biblioteca Digital</h1>
+  <p style="color: goldenrod">Gerencie sua coleção de livros de forma fácil e rápida.</p>
+</div>
+
+<div class="container text-xl font-bold text-blue-600">
+ <div class="space-x-4">      
+   
+    <button
+    [routerLink]="['/listagem']" 
+    class="px-2 py-1 bg-blue-500 text-white text-sm font-semibold rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600 mr-2">
+    Listagem
+   </button>
+
+    <button
+    [routerLink]="['/formulario']" 
+    class="px-2 py-1 bg-blue-500 text-white text-sm font-semibold rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600 mr-2">
+    Adicionar
+   </button>
+
+    </div>
+</div>
+
+
+</div>

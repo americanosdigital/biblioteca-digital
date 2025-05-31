@@ -1,0 +1,163 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+# ========================================
+# .NET Core
+# ========================================
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+bld/
+[Bb]in/
+[Oo]bj/
+TestResults/
+*.log
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Dotnet CLI
+.project.lock.json
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+*.csproj.user
+
+# Rider
+.idea/
+
+# Others
+*.db
+*.DS_Store
+*.bak
+*.tmp
+*.swp
+
+# User-specific files
+*.vspscc
+*.vssscc
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Logs
+*.log
+
+# Entity Framework
+Migrations/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+*.TestResults/
+
+# Static files
+wwwroot/node_modules/
+wwwroot/lib/
+
+# ========================================
+# Angular
+# ========================================
+# Compiled output
+dist/
+out-tsc/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular build artifacts
+.angular/
+.angular-cache/
+.cache/
+
+# Environment files
+src/environments/*.ts
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Package lock files (choose depending on what you use)
+package-lock.json
+yarn.lock
+
+# Tests
+karma.conf.js
+coverage/
+
+# Misc
+.env
+.env.*.local
+
